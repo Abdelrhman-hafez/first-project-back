@@ -22,5 +22,5 @@ const addToCart = async (req, res) => {
     return res.status(200).json({ message: "Added successfully" });
 
 }
-
+// addToCart.js
 module.exports = { addToCart }
