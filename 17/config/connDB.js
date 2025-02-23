@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 // connecting database
+// okay
 const connDB = async () => {
     try {
         const conn = await mongoose.connect('mongodb+srv://abdohafez:197447915@cluster0.mhfqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
